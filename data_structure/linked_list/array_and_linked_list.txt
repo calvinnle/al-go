@@ -1,0 +1,6 @@
+Array VS Linked-list
+
+1) Computation cost
+2) Cost of accessing an element: arr O(1) vs linked-list 0(n):
+3) Memory usage
+4) Cost of insert or delete an element;

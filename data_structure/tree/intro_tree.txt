@@ -1,0 +1,28 @@
+Introduction to tree data structure
+
+- In a valid tree, if a tree has n nodes, it will have exactly n-1 number of deges.
+
+Depth and Height of a tree.
+
+Depth of node x can be defined as length of path from root to node x;
+=> number of edges from the root to node x;
+
+Height of node x can be defined as longest path from x to leaf node.
+Height of the tree can be defined as height of the root node.
+
+
+Binary tree
+- is a tree that a node will have at most as 2 children.
+
+C implementation of a node in a tree;
+struct node
+{
+    int data;
+    Node* left;
+    Node* right;
+
+Applications:
+    - Storing naturally hierarchial structure of data. (file system)
+    - organize data for quick search, insertio, deletion. (BST)
+    - Trie -> dictionary
+    - Networking routing algorithm

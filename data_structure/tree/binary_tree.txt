@@ -1,0 +1,23 @@
+Binary Tree - at most 2 children nodes
+
+Strict/Proper binary tree
+    - it either have 0 or 2 children nodes.
+
+Complete binary tree
+    - all levels exept possibly the last are completely filled and all nodes are as left as possible.
+
+Perfect binary tree.
+    - Maximun number of nodes in a binary tree with height h
+    - 2^(number of levels) - 1
+
+    height of a perfect binary tree:
+        - log2(n+1) -1
+    
+    Balance binary tree
+        - difference between height of left and right subtree for every node is not more than k (mostly 1)
+
+Tree Traversal Technique
+    - Inorder 
+    - Preorder
+    - Postorder
+    - Level
