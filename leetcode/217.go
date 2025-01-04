@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func containsDuplicate(a []int) bool {
 	visited := make(map[int]int)
 
