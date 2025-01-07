@@ -20,8 +20,8 @@ int main() {
     copy(a.begin(), a.end(), sorted_a.begin());
     sort(sorted_a.begin(), sorted_a.end());
 
-    int start;
-    int end;
+    int start = 1;
+    int end = 1;
     
     for (int i = 0; i < n; i++) {
         if (a[i] < a[i + 1]) {
