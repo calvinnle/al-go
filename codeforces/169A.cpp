@@ -1,10 +1,10 @@
-#tnclude <bits/stdc++.h>
+#include <bits/stdc++.h>
 
 using namespace std;
 using ll = long long;
 
 int main() {
-    int n,a,b;
+    int n, a, b;
     scanf("%d %d %d", &n, &a, &b);
 
     vector<ll> h;
@@ -16,12 +16,12 @@ int main() {
     }
 
     sort(h.begin(), h.end());
-    
+
     int count = 0;
     for (int i = 0; i < n; i++) {
         count++;
         if (count == b) {
-            cout << h[i+1] - h[i] << endl;  
+            cout << h[i + 1] - h[i] << endl;
         }
     }
 }

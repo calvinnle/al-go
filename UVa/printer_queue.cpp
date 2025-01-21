@@ -2,7 +2,9 @@
 
 using namespace std;
 
-pair<int,int> maxInQueue(queue<pair<int, int>> q) {
+using pii = pair<int,int>;
+
+pii maxInQueue(queue<pair<int, int>> q) {
     pair<int,int> maxx = q.front();
     q.pop();
     

@@ -3,7 +3,7 @@
 
 using namespace std;
 
-vector<int> solve(vector<int>& a) {
+vector<int> solve(vector<int> &a) {
     int seraja = 0;
     int dima = 0;
     int l = 0;
@@ -47,5 +47,5 @@ int main() {
     }
 
     vector<int> ans = solve(a);
-    cout << ans[0] << " " <<  ans[1] << endl;
+    cout << ans[0] << " " << ans[1] << endl;
 }
