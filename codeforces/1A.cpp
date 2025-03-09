@@ -1,6 +1,7 @@
-#include <bits/stdc++.h>
+#include <bits
 
 using namespace std;
+
 using ll = long long;
 
 int main() {
